@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Your Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/svg+xml" href="./images/header/favicon.svg">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="./index.html">Fashion-Git</a>
+                </div>
+                <nav>
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="index.html">Home</a></li>
+                        <li class="nav-item"><a href="product.html">Products</a></li>
+                        <li class="nav-item"><a href="contactUs.html">Contact Us</a></li>
+                        <li class="nav-item"><a href="Aboutus.html">About Us</a></li>
+                        <li class="nav-item"><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img class="cart" src="./images/header/cart.svg"></a>
+                <div class="toggle"><i class="fa fa-bars"></i></div>
+            </div>
+        </div>
+    </div>  
+
+    <!-- Your cart page content here -->
+    <section class="h-100 h-custom">
+        <div class="container h-100 py-5">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-lg-7">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="h5">Shopping Bag</th>
+                                    <th scope="col">Format</th>
+                                    <th scope="col">Quantity</th>
+                                    <th scope="col">Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-flex align-items-center">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs-poXNmwvLUgdFVLApH-um5ERpun2gMXFHZexj8UMwQ_AtXyJO7EN1B6gSoHb2fWI3wM&usqp=CAU class="img-fluid rounded-3"
+                                                style="width: 120px;" alt="Book">
+                                            <div class="flex-column ms-4">
+                                                <p class="mb-2">Thinking, Fast and Slow</p>
+                                                <p class="mb-0">Daniel Kahneman</p>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td class="align-middle">
+                                        <p class="mb-0" style="font-weight: 500;">Digital</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <div class="d-flex flex-row">
+                                           
+                            
+                                           
+                                
+                                            <input id="form1" min="0" name="quantity" value="2" type="number"
+                                                class="form-control form-control-ms" style="width: 50px; color: black; font-size: 15px;" />
+                                
+                                           
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="mb-0" style="font-weight: 500;">$9.99</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-flex align-items-center">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs-poXNmwvLUgdFVLApH-um5ERpun2gMXFHZexj8UMwQ_AtXyJO7EN1B6gSoHb2fWI3wM&usqp=CAU" class="img-fluid rounded-3"
+                                                style="width: 120px;" alt="Book">
+                                            <div class="flex-column ms-4">
+                                                <p class="mb-2">Thinking, Fast and Slow</p>
+                                                <p class="mb-0">Daniel Kahneman</p>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td class="align-middle">
+                                        <p class="mb-0" style="font-weight: 500;">Digital</p>
+                                    </td>
+                                    <td class="align-middle">
+                                        <div class="d-flex flex-row">
+                                           
+                                
+                                            <input id="form1" min="0" name="quantity" value="2" type="number"
+                                                class="form-control form-control-sm" style="width: 50px; color: black; font-size: 15px;" />
+                                
+                                           
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">
+                                        <p class="mb-0" style="font-weight: 500;">$9.99</p>
+                                    </td>
+                                </tr>
+                                <!-- Add more cart items if needed -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                  
+
+                                <div class="d-flex justify-content-between" style="font-weight: 500;">
+                                    <p class="mb-2">Subtotal</p>
+                                    <p class="mb-2">$23.49</p>
+                                </div>
+
+                                <div class="d-flex justify-content-between" style="font-weight: 500;">
+                                    <p class="mb-0">Shipping</p>
+                                    <p class="mb-0">$2.99</p>
+                                </div>
+
+                                <hr class="my-4">
+
+                                <div class="d-flex justify-content-between mb-4" style="font-weight: 500;">
+                                    <p class="mb-2">Total (tax included)</p>
+                                    <p class="mb-2">$26.48</p>
+                                </div>
+
+                                <a href="payment.html"><button type="button" class="btn btn-primary btn-block btn-lg">
+                                    <div class="d-flex justify-content-between">
+                                        <span>Checkout</span>
+                                        <span>$26.48</span>
+                                    </div>
+                                </button>
+                            </a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="child">
+                <h3>About Us</h3>
+                <p>Fashion-Git is your one-stop-shop for all your fashion needs. We offer high-quality clothing, shoes, and accessories for men and women.</p>
+            </div>
+            <div class="child">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="contactUs.html ">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="child">
+                <h3>Follow Us</h3>
+                <div class="footerSocial">
+                    <a href="#" class="footerSocialLink"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="footerSocialLink"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="footerSocialLink"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="footerSocialLink"><i class="fa fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="belowfooter">
+            &copy; Fashion-Git, 2023 <br>
+         All rights reserved.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

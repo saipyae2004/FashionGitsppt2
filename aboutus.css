@@ -1,0 +1,56 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.cart {
+    width: 25px;
+    height: 25px;
+}
+
+.toggle {
+    display: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* About Us */
+.aboutus-section {
+    padding: 50px 0;
+    background-color: #000000;
+}
+
+.aboutus-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aboutus-text {
+    flex: 1;
+}
+
+.aboutus-text h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.aboutus-text p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.aboutus-img img {
+    max-width: 100%;
+    height: auto;
+}
